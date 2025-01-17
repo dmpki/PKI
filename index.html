@@ -43,7 +43,7 @@
                     </ul>
                     CertTool (The easiest and safest way to trust us)
                     <ul class="disc">
-                        <li><a href="https://repo.dmpki.com/tool/CertTool/CertTool_v2_13.exe" class="more">CertTool</a> (v2.13, Windows)</li>
+                        <li><a href="https://repo.dmpki.com/tool/CertTool/CertTool_v2_14.exe" class="more">CertTool</a> (v2.14, Windows)</li>
                         <li><a href="https://github.com/dmpki/CertTool" class="more">CertTool Repository</a></li>
                     </ul>
                     Non-Production Root CA
@@ -101,11 +101,6 @@
                         <li><a href="https://crl.dmpki.com/r4/TimestampingCAG9SHA256.crl" class="more">David Miller Timestamping CA - G9 - SHA256</a></li>
                         <li><a href="https://crl.dmpki.com/r4/SecureEmailCAG6SHA256.crl" class="more">David Miller Secure Email CA - G6 - SHA256</a></li>
                         <li><a href="https://crl.dmpki.com/r4/DocumentSigningCAG3SHA256.crl" class="more">David Miller Document Signing CA - G3 - SHA256</a></li>
-                        <li><a href="https://crl.dmpki.com/partner/GlobalServicesCA1G3SHA256.crl" class="more">TrusAuth - David Miller Global Services CA1 - G3</a></li>
-                        <li><a href="https://crl.dmpki.com/partner/GlobalServicesCA2G4SHA256.crl" class="more">TrusAuth - David Miller Global Services CA2 - G4</a></li>
-                        <li><a href="https://crl.dmpki.com/partner/GlobalServicesCA3.crl" class="more">Raytonne - David Miller Global Services CA3 - G1</a></li>
-                        <li><a href="https://crl.dmpki.com/partner/GlobalServicesCA4.crl" class="more">Youngdo - David Miller Global Services CA4 - G1</a></li>
-                        <li><a href="https://crl.dmpki.com/partner/GlobalCodeSigningCAG2SHA384.crl" class="more">Youngdo - David Miller Global Code Signing CA - G2</a></li>
                         <li><a href="https://repo.dmpki.com/crl/" class="more">CRL Repository</a></li>
                     </ul>
                 </td></tr>
@@ -118,36 +113,25 @@
                     <ul class="disc">
                         <li><a href="https://cacerts.dmpki.com/r4/ExternalCAG5SHA384.crt" class="more">David Miller External CA - G5 - SHA384</a></li>
                         <li><a href="https://cacerts.dmpki.com/r4/InternalPCAG6SHA384.crt" class="more">David Miller Internal PCA - G6 - SHA384</a></li>
-                        <li><a href="https://repo.dmpki.com/cacerts/cross-sign/R4_R1R2R3RootCA.zip" class="more">David Miller Root CA - R1/R2/R3 Bundle</a> (cross-signed by <a href="https://cacerts.dmpki.com/r4/R4RootCA.crt" class="more">R4</a>)</li>
-                        <li><a href="https://repo.dmpki.com/cacerts/cross-sign/R1R2R3_R4RootCA.zip" class="more">David Miller Root CA - R4 Bundle</a> (cross-signed by <a href="https://cacerts.dmpki.com/r1/R1RootCA.crt" class="more">R1</a>/<a href="https://cacerts.dmpki.com/r2/R2RootCA.crt" class="more">R2</a>/<a href="https://cacerts.dmpki.com/r3/R3RootCA.crt" class="more">R3</a>)</li>
                     </ul>
                 </td>
             </table>
         </div>
         <div class="grid2col column">
-            <h2>Partners</h2>
+            <h2>Cross-signing CA</h2>
             <table>
                 <td>
-                    TrusAuth:
+                    R1/R2/R3 (Cross-signed by R4):
                     <ul class="disc">
-                        <li><a href="https://pki.trusauth.com" class="more">TrusAuth PKI Website</a></li>
-                        <li><a href="https://cacerts.dmpki.com/partner/GlobalServicesCA1G3SHA256.crt" class="more">TrusAuth - David Miller Global Services CA1 - G3</a></li>
-                        <li><a href="https://cacerts.dmpki.com/partner/GlobalServicesCA2G4SHA256.crt" class="more">TrusAuth - David Miller Global Services CA2 - G4</a></li>
-                        <li><a href="https://cacerts.dmpki.com/partner/TrusAuth_R4RootCA.crt" class="more">TrusAuth - David Miller Root CA - R4</a> (cross-signed by <a href="https://cacerts.dmpki.com/partner/TrusAuth_G3.crt" class="more">G3</a>)</li>
+                        <li><a href="https://repo.dmpki.com/cacerts/cross-sign/R4_R1RootCA.crt" class="more">David Miller Root CA - R4</a> (cross-signed by <a href="https://cacerts.dmpki.com/r4/R4RootCA.crt" class="more">R4</a>)</li>
+                        <li><a href="https://repo.dmpki.com/cacerts/cross-sign/R4_R2RootCA.crt" class="more">David Miller Root CA - R4</a> (cross-signed by <a href="https://cacerts.dmpki.com/r4/R4RootCA.crt" class="more">R4</a>)</li>
+                        <li><a href="https://repo.dmpki.com/cacerts/cross-sign/R4_R3RootCA.crt" class="more">David Miller Root CA - R4</a> (cross-signed by <a href="https://cacerts.dmpki.com/r4/R4RootCA.crt" class="more">R4</a>)</li>
                     </ul>
-                    Raytonne:
+                    R4 (Cross-signed by R1/R2/R3):
                     <ul class="disc">
-                        <li><a href="https://www.raytonne.com/PKI/" class="more">Raytonne PKI Website</a></li>
-                        <li><a href="https://cacerts.dmpki.com/partner/GlobalServicesCA3.crt" class="more">Raytonne - David Miller Global Services CA3 - G1</a></li>
-                        <li><a href="https://cacerts.dmpki.com/partner/Raytonne_R4RootCA.crt" class="more">Raytonne - David Miller Root CA - R4</a> (cross-signed by <a href="https://cacerts.dmpki.com/partner/Raytonne_Wan.crt" class="more">Wan</a>)</li>
-                        <li><a href="https://repo.dmpki.com/tool/RaytonneChromium/Raytonne_Chromium_v2.3.0.exe" class="more">Raytonne Chromium</a> (v2.3.0, Windows)</li>
-                        <li><a href="https://repo.dmpki.com/tool/RaytonneChromium/Raytonne_Chromium_v2.3.0.deb" class="more">Raytonne Chromium</a> (v2.3.0, Debian)</li>
-                    </ul>
-                    Youngdo:
-                    <ul class="disc">
-                        <li><a href="https://iks.moe" class="more">Youngdo PKI Website</a></li>
-                        <li><a href="https://cacerts.dmpki.com/partner/GlobalServicesCA4.crt" class="more">Youngdo - David Miller Global Services CA4 - G1</a></li>
-                        <li><a href="https://cacerts.dmpki.com/partner/GlobalCodeSigningCAG2SHA384.crt" class="more">Youngdo - David Miller Global Code Signing CA - G2</a></li>
+                        <li><a href="https://repo.dmpki.com/cacerts/cross-sign/R1_R4RootCA.crt" class="more">David Miller Root CA - R1</a> (cross-signed by <a href="https://cacerts.dmpki.com/r1/R1RootCA.crt" class="more">R1</a>)</li>
+                        <li><a href="https://repo.dmpki.com/cacerts/cross-sign/R2_R4RootCA.crt" class="more">David Miller Root CA - R2</a> (cross-signed by <a href="https://cacerts.dmpki.com/r2/R2RootCA.crt" class="more">R2</a>)</li>
+                        <li><a href="https://repo.dmpki.com/cacerts/cross-sign/R3_R4RootCA.crt" class="more">David Miller Root CA - R3</a> (cross-signed by <a href="https://cacerts.dmpki.com/r3/R3RootCA.crt" class="more">R3</a>)</li>
                     </ul>
                 </td>
             </table>
@@ -162,7 +146,7 @@
                     <td>
                         Audit:
                         <ul class="disc">
-                            <li><a href="https://www.dmpki.com/log" class="more">Update Log</a> (v6.0)</li>
+                            <li><a href="https://www.dmpki.com/log" class="more">Update Log</a> (v6.1)</li>
                             <li><a href="https://dodo.ct.comodo.com" class="more">Sectigo Dodo CT Log</a></li>
                             <li><a href="https://ct.googleapis.com/logs/crucible/" class="more">Google Crucible CT Log</a></li>
                             <li><a href="https://ct.googleapis.com/logs/eu1/solera2025h1/" class="more">Google Solera 2025 H1 CT Log</a></li>
